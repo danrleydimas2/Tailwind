@@ -8,10 +8,11 @@ export default function Home() {
 
       <div className="h-screen w-screen grid grid-cols-1 md:grid-cols-2 grid-rows-6">
         <div className="row-span-5 justify-end hidden md:flex">
-           <Image src={src} alt="instagram-celphone" className="w-max-96 " width="400" height="400"/>
+           <Image src={src} alt="instagram-celphone" className="w-max-80" width="420" height="100"/>
         </div>
         <div className="row-span-5 flex-col grid-cols-1 justify-center items-center">
-          <form className="w-80 h-4/6 flex-col justify-center items-center border rounded-sm px-10 py-4 gap-5 mt-24 ml-auto mr-auto md:ml-4">
+          <form className="w-80 h-3/6 flex-col justify-center items-center border rounded-sm px-10 py-4 gap-5 mt-24 ml-auto mr-auto  md:ml-4">
+             <div className="md:mt-10">
              <Image src={srcImgForm} alt="logo" className="w-52 w-max-52" width="400" height="400"/>
              <input className="bg-slate-50 h-9 w-full pl-3 border rounded-sm gap-3" placeholder="Número de Telefone, e-mail" />
              <input  className="bg-slate-50 h-9 w-full pl-3 border rounded-sm mt-2" placeholder="Senha"/>
@@ -23,6 +24,7 @@ export default function Home() {
               <div className="flex justify-center">
                 <a className="text-blue-800 text-sm coursor-pointer">Esqueci minha senha</a>
               </div>
+             </div>
              </div>
           </form>
           <div className="border w-80 my-4 text-center py-4  md:ml-4 ml-auto mr-auto">
