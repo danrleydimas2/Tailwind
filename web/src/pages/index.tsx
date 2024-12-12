@@ -39,8 +39,8 @@ export default function Home() {
           </div>
         </div>
       
-          <div className="row-span-1 col-span-1 mt-12">
-            <ul className="flex flex-wrap gap-3 justify-center">
+          <div className="row-span-1 col-span-1 md:col-span-2 mt-12">
+            <ul className="flex flex-wrap gap-3 justify-center ">
               <li className="text-slate-800 text-xs">Meta</li>
               <li className="text-slate-800 text-xs">Sobre</li>
               <li className="text-slate-800 text-xs">Blog</li>
