@@ -1,1 +1,1 @@
-Telas responvivas
+Telas responsivas
