@@ -34,7 +34,7 @@ export default function Home() {
             <p>Baixe o Aplicativo</p>
           </div>
           
-          <div className="flex  w-80 py-4 justify-center md:ml-4 ml-auto mr-auto">
+          <div className="flex gap-2  w-80 py-4 justify-center md:ml-4 ml-auto mr-auto">
             
              <Image src={srcImgApple} alt="apple" className="h-max-10" width="100" height="40"/>
              <Image src={srcImgGoole} alt="google" className="h-max-10" width="100" height="40"/>
